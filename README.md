@@ -120,3 +120,4 @@ In the menu the `Login` button will change to `Logout`. After click you will be 
 ## Download
 - Spring Tool Suite 4: https://spring.io/tools
 - Node.js: https://nodejs.org/en/download/
+- MySQL Workbench: https://dev.mysql.com/downloads/windows/installer/8.0.html
