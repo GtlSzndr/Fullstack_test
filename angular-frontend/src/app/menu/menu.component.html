@@ -1,0 +1,16 @@
+<mat-toolbar class="menubar">
+  <button mat-icon-button class="menu-icon" [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/f1-list">Listázás</button>
+    <button mat-menu-item routerLink="/home" *ngIf="!userService.getAuthStatus()">Bejelentkezés</button>
+    <button mat-menu-item (click)="userService.logout()" *ngIf="userService.getAuthStatus()">Kijelentkezés</button>
+  </mat-menu>
+
+  <span>Formula 1</span>
+  <span class="spacer"></span>
+  <div>
+    <img src="assets/img/white-logo.png" class="logo">
+  </div>
+</mat-toolbar>

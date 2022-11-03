@@ -1,0 +1,23 @@
+.menubar {
+  background-color: #A6051A;
+  color: #FFFFFF;
+  font-style: italic;
+  font-family: 'Courier New', monospace;
+}
+
+.menu-icon {
+
+  display: flex;
+  align-items: center;
+  background-color: #A6051A;
+  border: none;
+  color: #FFFFFF;
+}
+
+.logo{
+  width: 50px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

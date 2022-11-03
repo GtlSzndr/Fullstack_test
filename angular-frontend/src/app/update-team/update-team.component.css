@@ -1,0 +1,48 @@
+mat-form-field {opacity: 1 !important;}
+
+.label {
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+}
+
+.close{
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding: 0;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.closeImg {
+  height: 20px;
+}
+
+.body {
+  background-color: #A6051A !important;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+  background-color: #A6051A;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 120px;
+  color: #FFFFFF;
+}
+
+.fields {
+  width: 350px;
+}
+
