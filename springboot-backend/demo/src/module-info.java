@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Szandi
- *
- */
-module demo {
-}
