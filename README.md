@@ -52,7 +52,7 @@ Inside `angular-frontend` directory:
 ````
 npm start
 ````
-- You can reach the application in any browser at `http://localhost:4200/`
+You can reach the application in any browser at `http://localhost:4200/`
 <br/><br/>
 ---
 # SpringBoot Backend
