@@ -3,5 +3,5 @@ export class F1Team {
   teamName: string;
 	yearOfEstablishment: number;
 	numOfWorldChampionships: number;
-	entryFreePaid: number;
+	entryFeePaid: number;
 }

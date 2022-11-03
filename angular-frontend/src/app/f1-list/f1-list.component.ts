@@ -17,7 +17,7 @@ import { UpdateTeamComponent } from '../update-team/update-team.component';
 export class F1ListComponent implements OnInit {
 
   public f1teams: F1Team[];
-  public displayedColumns: string[] = ['teamName', 'yearOfEstablishment', 'numOfWorldChampionships', 'entryFreePaid'];
+  public displayedColumns: string[] = ['teamName', 'yearOfEstablishment', 'numOfWorldChampionships', 'entryFeePaid'];
 
   constructor(
     private f1Service: F1Service,

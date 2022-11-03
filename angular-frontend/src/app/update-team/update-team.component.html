@@ -1,32 +1,32 @@
 <button class="close" (click)="closeDialog()"><img src="assets/img/close.png" alt="close" class="closeImg"></button>
 <br>
-<div class="label">Adatmódosítás</div>
+<div class="label">Modify data</div>
 <br>
 <form class="create center" (ngSubmit)="updateTeam()" id="formData" #teamData="ngForm" *ngIf="team">
   <mat-form-field appearance="fill" class="fields">
-    <mat-label>Csapatnév</mat-label>
+    <mat-label>Team name</mat-label>
     <input matInput [(ngModel)]="team.teamName" name="teamName">
   </mat-form-field>
   <br>
   <mat-form-field appearance="fill" class="fields">
-    <mat-label>Megalapítás éve</mat-label>
+    <mat-label>Year of Establishment</mat-label>
     <input matInput type="number" [(ngModel)]="team.yearOfEstablishment" name="yearOfEstablishment" [min]="1950" [max]="2022">
-    <mat-error *ngIf="team.yearOfEstablishment < 1950">Az évszám nem lehet kisebb, mint 1950!</mat-error>
-    <mat-error *ngIf="team.yearOfEstablishment > 2022">Az évszám nem lehet nagyobb, mint 2022!</mat-error>
+    <mat-error *ngIf="team.yearOfEstablishment < 1950">The year must be greater than 1950!</mat-error>
+    <mat-error *ngIf="team.yearOfEstablishment > 2022">The year must be smaller than 2022!</mat-error>
   </mat-form-field>
   <br>
   <mat-form-field appearance="fill" class="fields">
-    <mat-label>Megnyert VB-k száma</mat-label>
+    <mat-label>Number of World Championships won</mat-label>
     <input matInput type="number" [(ngModel)]="team.numOfWorldChampionships" name="numOfWorldChampionships" [min]="0" >
   </mat-form-field>
   <br>
-  <label>Jelentkezési díjt befizette?</label> <br>
-  <mat-radio-group class="fields" [(ngModel)]="team.entryFreePaid" name="entryFreePaid">
-    <mat-radio-button [value]="1" [checked]="team.entryFreePaid === 1">Igen</mat-radio-button>&nbsp;
-    <mat-radio-button [value]="0" [checked]="team.entryFreePaid === 0">Nem</mat-radio-button>
+  <label>Is entry fee paid?</label> <br>
+  <mat-radio-group class="fields" [(ngModel)]="team.entryFeePaid" name="entryFeePaid">
+    <mat-radio-button [value]="1" [checked]="team.entryFeePaid === 1">Yes</mat-radio-button>&nbsp;
+    <mat-radio-button [value]="0" [checked]="team.entryFeePaid === 0">No</mat-radio-button>
   </mat-radio-group>
   <br>
   <br>
-  <button mat-button type="submit" mat-button class="btn">Módosítás</button>
+  <button mat-button type="submit" mat-button class="btn">Submit</button>
 
 </form>

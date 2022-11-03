@@ -3,9 +3,9 @@
     <mat-icon>menu</mat-icon>
   </button>
   <mat-menu #menu="matMenu">
-    <button mat-menu-item routerLink="/f1-list">Listázás</button>
-    <button mat-menu-item routerLink="/home" *ngIf="!userService.getAuthStatus()">Bejelentkezés</button>
-    <button mat-menu-item (click)="userService.logout()" *ngIf="userService.getAuthStatus()">Kijelentkezés</button>
+    <button mat-menu-item routerLink="/f1-list">Show teams</button>
+    <button mat-menu-item routerLink="/home" *ngIf="!userService.getAuthStatus()">Login</button>
+    <button mat-menu-item (click)="userService.logout()" *ngIf="userService.getAuthStatus()">Logout</button>
   </mat-menu>
 
   <span>Formula 1</span>
