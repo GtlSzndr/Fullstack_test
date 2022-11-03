@@ -9,18 +9,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development instructions
 
-- How to login with admin (sample user)
+### How to login with admin (sample user)
 
-admin user username: 
+username: 
 ````
 admin
 ````
-admin user password: 
+password: 
 ````
 f1test2018
 ````
 
-- Connect to mysql db
+### Connect to mysql db
 
 host/port:
 ````
