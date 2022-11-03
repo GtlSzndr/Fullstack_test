@@ -68,7 +68,7 @@ You can reach the application in any browser at `http://localhost:4200/`
 # Run the Application
 ## From Spring Tool Suite (STS)
 
-After you opened the `springboot-backend` directory with IDE:
+After you opened the `sboot-backend` directory with IDE:
 (File -> Open Projects from File system)
 ````
 In Package Explorer: ( if not shown: Window -> Show View -> Package Explorer)
