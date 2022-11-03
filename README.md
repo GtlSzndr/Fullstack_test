@@ -38,7 +38,7 @@ password:
 # Getting started
 
 ## Installation on Windows
-- Install MySQL
+- Install MySQL (I used MySQL Workbench)
 - Install Node.js: You can download Node.js from its' official page:
 https://nodejs.org/en/download/
 
