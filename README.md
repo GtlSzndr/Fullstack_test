@@ -134,3 +134,6 @@ In the menu the `Login` button will change to `Logout`. After click you will be 
 - Spring Tool Suite 4: https://spring.io/tools
 - Node.js: https://nodejs.org/en/download/
 - MySQL Workbench: https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+## Help for STS4 setup
+- https://www.geeksforgeeks.org/how-to-download-and-install-spring-tool-suite-spring-tools-4-for-eclipse-ide/
