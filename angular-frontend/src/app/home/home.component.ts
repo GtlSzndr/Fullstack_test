@@ -26,9 +26,9 @@ export class HomeComponent implements OnInit {
     this.userService.login(this.user).pipe(first()).subscribe(data => {
       this.userService.setAuthStatus(true);
       this.router.navigate(['/f1-list']);
-      alert("Sikeres bejelentkezés");
+      alert("You have successfuly logged in!");
     }, err => {
-      alert("Hibás adatok");
+      alert("Incorrect username or password!");
     });
   }
 
